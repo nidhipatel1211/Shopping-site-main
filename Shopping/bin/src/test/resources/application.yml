@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: fakemail@gmail.com
+    password: 123
+    properties:
+      verify:
+        host: http://localhost:8080
+
+env:
+  dev: false
